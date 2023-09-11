@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            /* caption-side: bottom; */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- colgorup tag -->
+        <colgroup>
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: greenyellow;">
+            <col span="1" style="background-color: rgb(137, 221, 13);">
+        </colgroup>
+        <thead>
+            <tr>
+             <th rowspan="3">State of health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After eating </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Minimum</td>
+                <td>Maximum</td>
+                <td colspan="2">2 hour after eating</td>
+            </tr>
+            <tr>
+                <!-- <td>Healthy</td>
+                <td>70</td> -->
+                <td>100</td>
+                <td colspan="2">less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-diab</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>diab</td>
+                <td>More than 126</td>
+                <td>NA</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

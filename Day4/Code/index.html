@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>This is my table using rowspan and colspan</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Month</th>
+                <!-- <th>Age</th> -->
+                <th>gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td rowspan="3">2000</td>
+                <td>male</td>
+            </tr>
+            <tr>
+                <td>feb</td>
+                <!-- <td>2070</td> -->
+                <td>male</td>
+            </tr>
+            <tr>
+                <td>march</td>
+                <!-- <td>200</td> -->
+                <td>male</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">Aprail</td>
+                <td>female</td>
+            </tr>
+            <tr>
+                <!-- <td>Aprail</td>
+                <td>2500</td> -->
+                <td>female</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
