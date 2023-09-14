@@ -1,0 +1,57 @@
+/* universal selector */
+*{
+    font-style: italic;
+}
+/* Element selector */
+p{
+    color: rgb(121, 30, 182);
+    font-size: larger;
+}
+h1{
+    background-color: aqua;
+}
+
+/* class selector */
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.small{
+    font-size: small;
+}
+.big{
+    font-size: large;
+}
+
+
+/* Id selector */
+#first-btn{
+    color: red;
+}
+
+/* pseudoSelector */
+#first-btn:hover{
+    color: yellow;
+}
+
+
+.link:hover{
+    color: black;
+}
+
+/* Multiple selector */
+article,.p,span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: wheat;
+    background-color: black;
+}
+
+/* Attribute selector */
+a[target]{
+    background-color: brown;
+}
+
