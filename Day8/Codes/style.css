@@ -1,0 +1,58 @@
+/* text properties */
+
+p{
+    text-align: center;
+    text-decoration: double;
+    letter-spacing: 0.2cm;
+    text-transform: uppercase;
+    word-spacing:0.2px ;
+    text-indent: 0.2px;
+    line-height:normal ;
+    text-shadow: 3px black;
+}
+
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* linear gradeint */
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to bottom,red,blue);
+    background-image: linear-gradient(to top,red,blue);
+    background-image: linear-gradient(to bottom right,red,blue);
+    background-image: linear-gradient(90 deg,red,blue);
+}
+
+
+/* radial gradient */
+.mydiv{
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    background-image: radial-gradient(circle,red, yellow,green);
+    background-image: radial-gradient(red 5%, yellow 7%,green);
+}
+
+.conic{
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background-image:conic-gradient(red,yellow,green,blue);
+}
+
+.text{
+    text-shadow: 2px 2px 3px blueviolet;
+    text-shadow: 2px 2px 3px blueviolet,6px 6px 6px green;
+    font-weight: bold;
+}
+
+
+.box-1{
+background-color: aqua;
+width: 200px;
+height: 200px;
+box-shadow: -10px -10px 15px green, 5px 5px 15px brown;
+color: red;
+}
