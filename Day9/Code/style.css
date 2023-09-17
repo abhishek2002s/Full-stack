@@ -1,0 +1,54 @@
+.box{
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+
+
+.content{
+    margin: 10px;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.cont{
+    max-height: 50px;
+    border: 1px solid red;
+    /* overflow: hidden; to hide the content */
+    /* overflow: visible; to show the content */
+    /* overflow: scroll; to show scrollbar */
+    /* overflow: auto;  scrollbar */
+    overflow: auto;
+}
+
+
+.bx{
+    background-color: aqua;
+    /* transform: translate(100px,20px); */
+    /* transform: translate(200px,50px); */
+    /* transform: translateY(200px); */
+    /* transform: rotate(-45deg); */
+    /* transform: scale(1.5,1); */
+    /* transform: skew(45deg); */
+    transform: matrix(3px,4px,5px);
+    margin: 200px;
+}
+
+.translate{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    transform: perspective(15px) translateZ(-10px);
+}
+
+.scale{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    transform: rotatez(15deg);
+}
+
+.static{
+    border: 1px solid black;
+}

@@ -1,0 +1,44 @@
+.container{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: bold;
+}
+
+
+.bottom-left{
+    position: absolute;
+    bottom: 23px;
+    left: 5px;
+
+}
+
+.Top-left{
+    position: absolute;
+    top: 2px;
+    left: 5px;
+
+}
+
+.bottom-right{
+    position: absolute;
+    right: 100px;
+    bottom: 23px;
+    right: 5px;
+}
+
+.Top-right{
+position: absolute;
+top:2px;
+right:14px;
+}
+
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+
+    
+}
