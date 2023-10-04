@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 215px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+}
+
+.box{
+    height: 212px;
+    width: 221px;
+    border: 2px solid green;
+    background-color: aqua;
+
+    animation-name: abhi;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: normal;
+    animation-delay: 1s;
+    /* animation-direction:alternate ; */
+    animation-fill-mode: backwards;
+
+}
+
+
+@keyframes abhi{
+    0%{
+width: 212px;
+background-color: orange;
+    }
+    0%{
+           width: 35%;
+           background-color: white;
+    }
+    50%{
+          width: 75%;
+          background-color:green;
+    }
+    100%{
+ width: 100%;
+ /* background-color: ; */
+    }
+}
+
+/* @keyframes abhi{
+    from{
+           width: 212px;
+    }
+    to{
+            width: 800px;
+    }
+} */
