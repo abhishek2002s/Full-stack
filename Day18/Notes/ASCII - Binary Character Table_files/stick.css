@@ -1,0 +1,154 @@
+BODY { 
+      background: #333333;
+      background-image: url(images/Stone_bkg.jpg) ;
+      margin:0;
+      padding:20px 0 14px;
+      font-family: Verdana, sans-serif;
+      color: #333333;
+      }
+
+ #wrap {
+  position:relative;
+  top:0px;
+  left:0px;
+  background:#fff;
+  width: 760px;
+  margin:0 auto;
+  text-align:left;
+  border: 2px solid black
+  }
+  
+#wrap2 {
+  position:relative;
+  top:8px;
+  left:8px;
+  width: 750px;
+  background:#fff;
+  padding:10px;
+  }
+  
+h1.appen { 
+text-align: center; 
+background: #FFF; 
+color: #996633; 
+font-size: 36pt; 
+margin-top : 0.4em; 
+margin-bottom: 0.10em; 
+margin-left: 30px; 
+clear : both ; }
+
+h1.letter { 
+text-align: left; 
+background: #FFF; 
+color: #996633; 
+font-size: 72pt; 
+margin-top : 0em; 
+margin-bottom: 0.10em; 
+margin-left: 30px; 
+clear : both ; }
+
+h3.letter { text-align: left; 
+margin-left: 30px; color: #996633; font-size: 30pt; font-style: normal; margin-top : 0em; margin-bottom: 0.5em; clear : right ; }
+
+h3 { text-align: left; 
+margin-left: 30px; color: #333333; font-size: 20pt; font-style: normal; margin-top : 0em; margin-bottom: 0.5em; clear : right ; }
+
+div#main {
+       clear: both;
+       padding:20px 0 20px 0 ;
+       }
+       
+div#leftCol{
+          float:left;
+          padding: 0;
+          width:48%;
+   /*       border:1px solid #000;  */
+          }
+          
+div#rtCol{
+          margin:0px 0.1em 0px 49%;
+          padding: 0px  ;
+          width:49%;          
+  /*        border:1px solid #000;   */
+          }
+          
+img.page {
+        display: block ;
+  		margin:0 auto;
+  		padding: 40px ;
+       background-image: url(images/bkg2.jpg) ;
+       background-attachment: scroll ;
+       background-repeat: repeat-x ;
+  		 }
+  
+img.Caps {
+             display: block ;
+             float: left;
+             padding-top: 10px ; 
+	         padding-left: 20px ; 
+	         padding-right: 20px ; 
+         	 padding-bottom: 0px ;
+             margin-left: 15px;
+             clear: both;
+             border-bottom: 5px solid #996633;
+         }
+         
+ img.illus {
+             display: block ;
+             float: right;
+             padding-top: 5px ; padding-left: 5px ; padding-right: 5px ; padding-bottom: 5px ;
+             margin-right: 5px;
+             clear: both;
+             border: 2px solid #996633;
+         }
+          
+img.let-img {
+             display: inline ;
+             margin-left: 30px; 
+             padding-top: 10px ; padding-left: 0px ; padding-right: 0px ; padding-bottom: 0px ;
+             clear: both;
+         }
+         
+#footer {
+	 position: relative;
+         clear: both ;
+         border-top: 0px #003399 none ;
+         background-color: #FFFFFF;
+         color:	#003399 ;
+         text-align: left ;
+          padding-top: 0.5em ;
+         }
+
+div.links {
+         text-align: center;
+         color: #996633;
+         font-family: Verdana, Helvetica, Arial, sans-serif;
+         font-size: 0.85em;
+         font-weight: bold;
+         font-style: italic;
+         text-decoration: none;
+         background-color: white;
+         border-top: 3px #996633 solid;
+         border-bottom: 3px #996633 solid; 
+         }         
+A:link    { color:#996633; text-decoration: underline }
+A:visited { color:#996633; text-decoration: underline }
+A:hover   { background-color: #ffccaa; text-decoration: none }
+p  { text-indent: 2em ;
+       padding-bottom: 0.25em ; padding-top: 0.25em ;  padding-left: 1.5em ; padding-right: 1.5em ;
+       margin: 2em ;
+       }
+dl {
+margin-right: 10%;
+margin-left: 5%;
+}
+
+dt {
+color: maroon;
+font-weight: bold;
+}
+
+ul {
+margin-right: 20%;
+margin-left: 5%;
+}
