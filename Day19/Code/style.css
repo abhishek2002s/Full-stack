@@ -30,8 +30,8 @@
     left :0;
     bottom: 0;
     right: 0;
-    transform: scaleY(0);
-    transform-origin: bottom;
+    transform: scaleX(0);
+    transform-origin: left;
     transition:all 0.8s;
     z-index: -1;
 }
