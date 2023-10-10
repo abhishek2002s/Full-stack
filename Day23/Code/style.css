@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #fff;
+    background-color: #1f2029;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+p{
+    font-family:'Poppins', 'sans-serif' ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+    margin: 0;
+}
+
+.section-fluid-main{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section{
+    position: relative;
+    max-width: calc(100%-40px);
+    width: 860px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.section-fluid{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+    position: absolute;
+    visibility: hidden;
+}
+.color-btn:checked + label,
+.color-btn:not(:checked) + label {
+    position: relative;
+    height: 40px;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    width: 40px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    color: #ffeba7;
+    margin-right: 10px;
+    box-shadow: 0 12px 35px 0 rgba(16, 39,112 , 0.25);
+    z-index: 10;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+}
+
+.color-btn:checked + label{
+    border-color: #434343;
+    transform: scale(1.1);
+}
+
+label.first-color{
+    margin-left: 500px;
+    background-image: url(/Day23/images/color1.jpg);
+}
+label.color-2{
+    background-image: url(/Day23/images/color2.jpg);
+}
+label.color-3{
+    background-image: url(/Day23/images/color3.jpg);
+}
+label.color-4{
+    background-image: url(/Day23/images/color4.jpg);
+}
+label.color-5{
+    background-image: url(/Day23/images/color5.jpg);
+}
+label.color-6{
+    background-image: url(/Day23/images/color6.jpg);
+}
+
+.img-wrap{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 500px;
+    height: 410px;
+    display: inline-block;
+    z-index: 9;
+    transition: all 550ms linear;
+    transition-delay: 100ms;
+    background-position: center top;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image: url(/Day23/images/chair1.png);
+    opacity: 0;
+}
+
