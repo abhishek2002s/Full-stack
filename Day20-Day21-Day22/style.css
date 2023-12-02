@@ -320,7 +320,7 @@ transform: translateY(0px) rotateY(180deg);
 .project-card{
     width: 90%;
     height: 550px;
-    background-image: url(/Day20-Day21-Day22/images/projects/Project1.png);
+    background-image: url(./images/projects/Project1.png);
     background-size: cover;
     background-repeat:no-repeat;
     position: relative;
@@ -449,18 +449,18 @@ transform: scaleX(1);
 }
 
 #project1{
-    background-image: url(/Day20-Day21-Day22/images/projects/Project1.png);
+    background-image: url(./images/projects/Project1.png);
 }
 #project2{
     margin-left: 120px;
-    background-image: url(/Day20-Day21-Day22/images/projects/Project2.png);
+    background-image: url(./images/projects/Project2.png);
 }
 #project3{
-    background-image: url(/Day20-Day21-Day22/images/projects/Project3.png);
+    background-image: url(./images/projects/Project3.png);
 }
 #project4{
     margin-left: 120px;
-    background-image: url(/Day20-Day21-Day22/images/projects/Project4.png);
+    background-image: url(./images/projects/Project4.png);
 }
 
 @media (max-width:1300px) {
