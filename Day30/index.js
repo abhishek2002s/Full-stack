@@ -138,3 +138,6 @@ do{
     console.log("Hare krishna |^|");
     k++;
 }while(k<8);
+
+
+
