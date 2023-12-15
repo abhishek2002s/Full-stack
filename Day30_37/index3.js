@@ -71,13 +71,31 @@
 // console.log(numbers2)
 
 //combining an array *************
-let arr1 = [1,2,3,5];
-let arr2 = [4,6,7,8];
+// let arr1 = [1,2,3,5];
+// let arr2 = [4,6,7,8];
 
-let combine = arr1.concat(arr2);
-console.log(combine);
+// let combine = arr1.concat(arr2);
+// console.log(combine);
 
-//slicing an element ***********
+// //slicing an element ***********
 
-let slice = combine.slice(2,6);
-console.log(slice);
+// let slice = combine.slice(2,6);
+// console.log(slice);
+
+
+//Reducing an array
+let arr = [1,2,3,4];
+let total = 0;
+
+
+for(let value of arr)
+    total += value;
+
+console.log(total);
+
+
+let totalsum = arr.reduce((accumulator,currrentValue)=> accumulator + currrentValue,0 );
+console.log("printing the sum is :");
+console.log(totalsum);
+
+
